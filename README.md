@@ -1,2 +1,3 @@
 # Calculator
 Calculator with amazing design using html,css,javascript...
+![Calculator](https://github.com/saithra/Calculator/assets/149575617/699a10f2-9b93-4e81-808c-a632ef97d30d)
