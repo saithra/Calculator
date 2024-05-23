@@ -1,0 +1,76 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    outline: none;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 25px;
+}
+#box{
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    /* background-color: black; */
+    background-image: url(./img/img2.jpg);
+    background-size: cover;
+    
+}
+h1{
+    color: whitesmoke;
+    text-indent: 2px;
+    text-shadow:10px 10px 40px deeppink,5px 5px 10px deepskyblue; 
+    font-family:'Times New Roman', Times, serif;
+    font-size: 60px;
+    margin-left: 220px;
+    margin-top: 260px;
+    
+}
+#box1{
+    
+    width: 350px;
+    margin-left: 720px;
+    margin-top: -315px;
+    background-color: black;
+    display: grid;
+    padding: 40px;
+    border-radius: 30px;
+    grid-template-columns: repeat(4,70px);
+    grid-template-rows: repeat(6,63px);
+    box-shadow: inset 5px 3px 12px deepskyblue,
+                 5px 5px 20px deeppink;
+    row-gap: 2px;
+    
+
+}
+input{
+    grid-column: span 4;
+    height: 60px;
+    box-shadow: inset -5px -5px 12px deepskyblue,
+                 inset 5px 5px 12px deeppink;
+   border: none;
+   border-radius: 30px;
+   color:whitesmoke;
+   font-size: 45px;
+   text-align: end;
+   padding: 8px;
+   margin-bottom: 30px;
+   background-color: black;
+    
+}
+button{
+    height: 60px;
+    width: 60px;
+    border-radius: 30px;
+    background-color:black;
+    box-shadow: inset -5px -5px 12px deepskyblue,
+                 inset 5px 5px 12px deeppink;
+   border: none;
+   font-size: 16px;
+   color: whitesmoke;
+
+
+}
+#eql{
+    width: 120px;
+
+} 
